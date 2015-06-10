@@ -6,6 +6,7 @@
     <a href="department.aspx" >Add a new department</a>
     <asp:GridView ID="ListDepartments" runat="server" AutoGenerateColumns="false" CssClass="table table-striped table-hover"  OnRowDeleting="Departments_RowDeleting" DataKeyNames="DepartmentID">
         <Columns>
+
              <asp:BoundField DataField="DepartmentID" HeaderText="Departments ID" />
              <asp:BoundField DataField="Name" HeaderText="Name" />
              <asp:BoundField DataField="Budget" HeaderText="Budget" DataFormatString="{0:C}"/>

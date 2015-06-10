@@ -6,6 +6,7 @@
     <a href="student.aspx" >Add new student</a>
     <asp:GridView ID="Liststudents" runat="server" AutoGenerateColumns="false" CssClass="table table-striped table-hover"  OnRowDeleting="Liststudents_RowDeleting" DataKeyNames="StudentID">
         <Columns>
+
             <asp:BoundField DataField="StudentID" HeaderText="Student ID" />
             <asp:BoundField DataField="LastName" HeaderText="Last Name" />
             <asp:BoundField DataField="FirstMidName" HeaderText="Fist Name" />

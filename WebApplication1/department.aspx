@@ -7,6 +7,7 @@
         <label for="txtDepName" class="col-sm-2">Department:</label><asp:TextBox ID="txtDepartmentName" runat="server" required MaxLength="50" />
         </fieldset>
         <fieldset>
+
         <label for="txtBudget"class="col-sm-2">Budget:</label><asp:TextBox ID="txtBudget" runat="server" required MaxLength="50" />
         </fieldset>
             <fieldset>

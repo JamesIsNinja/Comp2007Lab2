@@ -6,6 +6,7 @@
     <fieldset>
         <label for="txtLastName" class="col-sm-2">Last Name:</label><asp:TextBox ID="txtLastName" runat="server" required MaxLength="50" />
         </fieldset>
+
         <fieldset>
         <label for="txtFirstMidName"class="col-sm-2">First Name:</label><asp:TextBox ID="txtFirstMidName" runat="server" required MaxLength="50" />
         </fieldset>

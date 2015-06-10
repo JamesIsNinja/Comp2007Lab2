@@ -12,6 +12,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css"/>
 </head>
 <body>
+
     <nav class="nav navbar-default">
         <a href="default.aspx" class="nav navbar-brand">University</a>
         <ul class="nav navbar-nav">
